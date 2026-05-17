@@ -16,6 +16,13 @@ ul {
     gap: 16px;
 }
 
+.sqimg {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+}
+
 .hero {
     background-color: #1F2937;
 
@@ -40,4 +47,34 @@ ul {
 .secondary-text {
     font-size: 18px;
     color: #f9faf8;
+}
+
+.information {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.square-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+}
+
+.square {
+    text-align: center;
+    max-width: 250px;
+    padding-bottom: 60px;
+}
+
+.sign-up {
+    background: #3882F6;
+    font-size: 18px;
+    color: #e5e7e5EB;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
 }
