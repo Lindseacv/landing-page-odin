@@ -152,3 +152,11 @@ p {
     border-color: #F9FAF8;
     border-radius: 5px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color:#e5e7e5EB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
