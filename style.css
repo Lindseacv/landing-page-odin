@@ -16,9 +16,15 @@ ul {
     gap: 16px;
 }
 
+p {
+    text-align: end;
+    padding-right: 100px;
+    font-weight: 600;
+}
+
 .body_img {
-    width: 500px;
-    height: 300px;
+    width: 650px;
+    height: 325px;
 }
 
 .sqimg {
@@ -36,8 +42,8 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 50px;
 }
 
@@ -49,7 +55,7 @@ ul {
 .main-text {
     font-size: 48px;
     color: #f9faf8;
-    weight: 900;
+    font-weight: 900;
 }
 
 .secondary-text {
@@ -57,10 +63,16 @@ ul {
     color: #f9faf8;
 }
 
+.subheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .information {
- display: flex;
- flex-direction: column;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .square-container {
@@ -87,8 +99,8 @@ ul {
 .body {
     display: flex;
     justify-content: space-between;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 50px;
 }
 
@@ -96,4 +108,17 @@ ul {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    font-style: italic;
 }
